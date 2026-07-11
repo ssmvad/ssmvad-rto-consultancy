@@ -103,9 +103,8 @@ nav ul li a:hover{
 /* HERO */
 
 .hero{
-    background:linear-gradient(135deg,#0b5ed7,#2d8cff);
+    background: linear-gradient(135deg,#1e3c72,#2a5298,#4f8fe8);
     color:#fff;
-    padding:90px 0;
 }
 
 /*.hero-container{
@@ -176,16 +175,16 @@ section{
     text-align:center;
     margin-bottom:50px;
 }
-.section-badge{
-display:inline-block;
-background:#0b5ed7;
-color:#fff;
-padding:8px 20px;
-border-radius:30px;
-font-size:14px;
-font-weight:600;
-margin-bottom:15px;
-letter-spacing:1px;
+.fee-badge{
+    display:inline-block;
+    margin:12px 0;
+    padding:6px 12px;
+    background:#eafaf1;
+    color:#198754;
+    border:1px solid #198754;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
 }
 
 .section-title h2{
@@ -857,7 +856,9 @@ grid-template-columns:1fr;
 
 .top-marquee{
     width:100%;
-    background:#FFD54F;
+    background:#ffffff;
+border-top:1px solid #e5e5e5;
+border-bottom:1px solid #e5e5e5;
     overflow:hidden;
     white-space:nowrap;
     padding:10px 0;
@@ -867,9 +868,9 @@ grid-template-columns:1fr;
 .marquee-content{
     display:inline-block;
     white-space:nowrap;
-    color:#222;
+    color:#1565c0;
     font-weight:600;
-    animation: marqueeMove 25s linear infinite;
+     animation: marqueeMove 25s linear infinite;
 }
 
 @keyframes marqueeMove{
@@ -985,4 +986,31 @@ grid-template-columns:1fr;
     font-size:20px;
 }
 
+}
+.dealer-list{
+    list-style:none;
+    padding:0;
+    max-width:700px;
+    margin:30px auto;
+}
+
+.dealer-list li{
+    position:relative;
+    padding:15px 20px 15px 45px;
+    margin:12px 0;
+    background:#ffffff;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    text-align:left;
+    font-size:18px;
+    font-weight:500;
+}
+
+.dealer-list li::before{
+    content:"✔";
+    position:absolute;
+    left:18px;
+    color:#1e88e5;
+    font-weight:bold;
+    font-size:18px;
 }

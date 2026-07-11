@@ -10,7 +10,7 @@ const whatsappNumber = "917830723987";
 const services = [
 
 {
-name:"Duplicate RC Assistance",
+name:"Duplicate RC Online Fee Assistance",
 icon:"fa-solid fa-file-circle-plus",
 documents:[
 "Aadhaar Card",
@@ -23,7 +23,7 @@ documents:[
 },
 
 {
-name:"RC Transfer Assistance",
+name:"RC Transfer Online Fee Assistance",
 icon:"fa-solid fa-car",
 documents:[
 "Original RC",
@@ -39,7 +39,7 @@ documents:[
 },
 
 {
-name:"Hypothecation Addition Assistance",
+name:"Hypothecation Addition Online Fee Assistance",
 icon:"fa-solid fa-building-columns",
 documents:[
 "RC Copy",
@@ -50,7 +50,7 @@ documents:[
 },
 
 {
-name:"Private Vehicle Registration Extension Assistance",
+name:"Private Vehicle Registration Extension Online FeeAssistance",
 icon:"fa-solid fa-building-columns",
 documents:[
 "RC Copy",
@@ -63,7 +63,7 @@ documents:[
 },
 
 {
-name:"NOC  Assistance",
+name:"NOC  Online Fee Assistance",
 icon:"fa-solid fa-building-columns",
 documents:[
 "RC Copy",
@@ -76,7 +76,7 @@ documents:[
 
 
 {
-name:"Hypothecation Termination Assistance",
+name:"Hypothecation Termination Online Fee Assistance",
 icon:"fa-solid fa-circle-check",
 documents:[
 "Original RC",
@@ -87,7 +87,7 @@ documents:[
 },
 
 {
-name:"RC Alteration Assistance",
+name:"RC Alteration Online Fee Assistance",
 icon:"fa-solid fa-pen-to-square",
 documents:[
 "RC Copy",
@@ -96,27 +96,14 @@ documents:[
 },
 
 {
-name:"New Registration (Private) Assistance",
-icon:"fa-solid fa-car-side",
+name:"Insurance Assistance",
+icon:"fa-solid fa-shield-halved",
 documents:[
-"Invoice",
-"Insurance",
-"Identity Proof",
-"Address Proof"
+"RC Copy",
+"Vehicle Details",
+"Mobile Number"
 ]
 },
-
-{
-name:"New Registration (Commercial) Assistance",
-icon:"fa-solid fa-truck",
-documents:[
-"Invoice",
-"Insurance",
-"PAN Card",
-"Address Proof"
-]
-},
-
 {
 name:"GPS + Panic Button + SLD Assistance",
 icon:"fa-solid fa-location-dot",
@@ -127,7 +114,7 @@ documents:[
 },
 
 {
-name:"Fitness Certificate Assistance",
+name:"Fitness Certificate Online Fee Assistance",
 icon:"fa-solid fa-shield-heart",
 documents:[
 "RC",
@@ -137,7 +124,7 @@ documents:[
 },
 
 {
-name:"Green Card Assistance",
+name:"Green Card Online Fee Assistance",
 icon:"fa-solid fa-leaf",
 documents:[
 "RC",
@@ -147,7 +134,7 @@ documents:[
 },
 
 {
-name:"Fancy Number Assistance",
+name:"Fancy Number Online Fee Assistance",
 icon:"fa-solid fa-star",
 documents:[
 "Aadhaar Card",
@@ -178,13 +165,11 @@ services.forEach((service, index) => {
 
             <h3>${service.name}</h3>
 
-            <p>
-                Professional RTO consultancy with quick processing and expert guidance.
-            </p>
+            
 
-            <button onclick="showDocuments(${index})">
-                View Required Documents
-            </button>
+<button onclick="showDocuments(${index})">
+    View Required Documents
+</button>
 
         </div>
     `;
