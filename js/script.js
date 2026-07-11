@@ -10,31 +10,36 @@ const whatsappNumber = "917830723987";
 const services = [
 
 {
-name:"Duplicate RC",
+name:"Duplicate RC Assistance",
 icon:"fa-solid fa-file-circle-plus",
 documents:[
 "Aadhaar Card",
 "PAN Card",
 "Insurance Copy",
-"PUC Certificate",
+" POLICE REPORT ",
+" BANK STAMP ON FORM 26 & Owner Signature ",
 "Passport Size Photo"
 ]
 },
 
 {
-name:"RC Transfer",
+name:"RC Transfer Assistance",
 icon:"fa-solid fa-car",
 documents:[
 "Original RC",
 "Insurance",
-"PUC",
+"Buyer Photo ",
+"Seller Photo ",
+"Seller Sign on Form 29 & 30 ",
+"Buyer Sign on Form 29 & 30 ",
+"Vehicle Chassis Tracing on form 29",
 "Buyer Aadhaar",
 "Seller Aadhaar"
 ]
 },
 
 {
-name:"Hypothecation Addition",
+name:"Hypothecation Addition Assistance",
 icon:"fa-solid fa-building-columns",
 documents:[
 "RC Copy",
@@ -45,7 +50,33 @@ documents:[
 },
 
 {
-name:"Hypothecation Termination",
+name:"Private Vehicle Registration Extension Assistance",
+icon:"fa-solid fa-building-columns",
+documents:[
+"RC Copy",
+"Bank Documents",
+"Insurance",
+"Owner Photo",
+"PUC",
+"Vehicle Chassis Tracing on Form 25 & Customer Sign"
+]
+},
+
+{
+name:"NOC  Assistance",
+icon:"fa-solid fa-building-columns",
+documents:[
+"RC Copy",
+"Bank Documents",
+"Insurance",
+"Tracing on Form 28"
+]
+},
+
+
+
+{
+name:"Hypothecation Termination Assistance",
 icon:"fa-solid fa-circle-check",
 documents:[
 "Original RC",
@@ -56,7 +87,7 @@ documents:[
 },
 
 {
-name:"RC Alteration",
+name:"RC Alteration Assistance",
 icon:"fa-solid fa-pen-to-square",
 documents:[
 "RC Copy",
@@ -65,7 +96,7 @@ documents:[
 },
 
 {
-name:"New Registration (Private)",
+name:"New Registration (Private) Assistance",
 icon:"fa-solid fa-car-side",
 documents:[
 "Invoice",
@@ -76,7 +107,7 @@ documents:[
 },
 
 {
-name:"New Registration (Commercial)",
+name:"New Registration (Commercial) Assistance",
 icon:"fa-solid fa-truck",
 documents:[
 "Invoice",
@@ -87,7 +118,7 @@ documents:[
 },
 
 {
-name:"GPS + Panic Button + SLD",
+name:"GPS + Panic Button + SLD Assistance",
 icon:"fa-solid fa-location-dot",
 documents:[
 "RC Copy",
@@ -96,7 +127,7 @@ documents:[
 },
 
 {
-name:"Fitness Certificate",
+name:"Fitness Certificate Assistance",
 icon:"fa-solid fa-shield-heart",
 documents:[
 "RC",
@@ -106,12 +137,23 @@ documents:[
 },
 
 {
-name:"Green Card",
+name:"Green Card Assistance",
 icon:"fa-solid fa-leaf",
 documents:[
 "RC",
 "Insurance",
 "PUC"
+]
+},
+
+{
+name:"Fancy Number Assistance",
+icon:"fa-solid fa-star",
+documents:[
+"Aadhaar Card",
+"PAN Card",
+"Mobile Number",
+"Vehicle Details"
 ]
 }
 
